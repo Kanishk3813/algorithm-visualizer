@@ -421,14 +421,31 @@ body {
   }
   
   
-  #pathfinder {
+  #array1 {
     background-color: white; 
   }
-  #pathfinder .sort-name {
+  #array1 .sort-name {
     color: black; 
   }
-  #pathfinder .sort-definition {
+  #array1 .sort-definition {
     color: black; 
+  }
+
+  #pathfinder {
+    background-color: black; 
+  }
+  #pathfinder .sort-name {
+    color: white; 
+  }
+  #pathfinder .sort-definition {
+    color: white; 
+  }
+  #pathfinder .try-link{
+    background-color: white;
+    color: black;  
+  }
+  #pathfinder .try-link::after{
+    background-color: rgba(255, 255, 255, 0.635);
   }
   
   
