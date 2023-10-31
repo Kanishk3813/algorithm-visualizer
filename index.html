@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Library - Book Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('QueueLink').addEventListener('click', function() {
+        window.location.href = 'https://predator3813.github.io/Real-Time-Queue-Application/';
+      });
+  
+      document.getElementById('Linked-list').addEventListener('click', function() {
+        window.location.href = 'https://vinayaksoni1729.github.io/Train_Compartment_Linked_List/';
+      });
+  
+      document.getElementById('BinaryTree').addEventListener('click', function() {
+        window.location.href = 'https://scolin16.github.io/Binary-Tree/';
+      });
+  
+      document.getElementById('Stack').addEventListener('click', function() {
+        window.location.href = 'https://predator3813.github.io/Real-Time-Stack-Application/';
+      });
+  
+      document.getElementById('Array').addEventListener('click', function() {
+        window.location.href = 'https://predator3813.github.io/Real-Time-Array-Application/';
+      });
+
+      document.getElementById('PathFinder').addEventListener('click', function() {
+        window.location.href = 'https://tpspace.github.io/Algorithms-Visualizer/src/graph/index.html';
+      });
+    });
+  </script>
+  
+</head>
+<body>
+  <nav id="menu">
+    <a id="QueueLink">Queue</a>
+    <a id="Linked-list">Linked-List</a>
+    <a id="BinaryTree">Binary Tree</a>
+    <a id="Stack">Stack</a>
+    <a id="Array">Array</a>
+    <a id="PathFinder">PathFinder</a>
+</nav>
+
+  
+  <header>
+    <!-- <div class="logo">Algorithms Visualizer</div> -->
+    <h1>
+      Real World <br> Algorithms
+    </h1>    
+    <div class="vertical-line1"></div>
+    <div class="vertical-line2"></div>
+  </header>
+
+  <section id="bubble-sort" class = "hidden">
+    <div class="sort-info">
+      <div class="sort-name">Queue</div>
+      <div class="sort-definition">A queue is a fundamental data structure used for organizing and processing elements in a linear order. It follows the principle of "first in, first out" (FIFO), where elements are added at the rear and removed from the front. Items in a queue are processed in the order in which they were added, making it suitable for various applications, such as task scheduling and managing resources in a sequential manner.</div>
+      <a class="try-link" id="bubble-sort-button" href="https://predator3813.github.io/Real-Time-Queue-Application/">Try Queue</a>
+    </div>
+    <div class="video-container">
+      <video src="assets/Queue Data Structure Animation.mp4" controls></video>
+    </div>
+  </section>
+
+  <section id="selection-sort" class = "hidden">
+    <div class="sort-info">
+      <div class="sort-name">Linked-List</div>
+      <div class="sort-definition">A linked list is a dynamic data structure that consists of a sequence of elements, each containing data and a reference (or link) to the next element in the sequence. This structure allows for efficient insertion and deletion of elements, making it versatile for various applications. Linked lists can be singly linked (each element points to the next) or doubly linked (each element points to both the next and the previous), providing flexibility in data management and traversal.</div>
+      <a class="try-link" id="selection-sort-button" href="https://vinayaksoni1729.github.io/Train_Compartment_Linked_List/">Try Linked-List</a>
+    </div>
+    <div class="video-container">
+      <video src="assets/Linked List Data Structure Animation.mp4" controls></video>
+    </div>
+  </section>
+
+  <section id="quick-sort" class = "hidden">
+    <div class="sort-info">
+      <div class="sort-name">Binary Tree</div>
+      <div class="sort-definition">A binary tree is a hierarchical data structure composed of nodes, where each node has at most two child nodes, typically referred to as the left child and the right child. This structure allows for efficient searching and retrieval of data, making binary trees an essential foundation for various data structures and algorithms. The organization of nodes in a binary tree is conducive to tasks like sorting, searching, and hierarchical data representation.</div>
+      <a class="try-link" id="quick-sort-button" href="https://scolin16.github.io/Binary-Tree/">Try Binary Tree</a>
+    </div>
+    <div class="video-container">
+      <video src="assets/Tree Data Structure Summary.mp4" controls></video>
+    </div>
+  </section>
+
+  <section id="insertion-sort" class = "hidden">
+    <div class="sort-info">
+      <div class="sort-name">Stack</div>
+      <div class="sort-definition">A stack is a fundamental data structure that operates on the "last in, first out" (LIFO) principle. It is a collection of elements with two primary operations: pushing (adding) elements onto the top of the stack and popping (removing) elements from the top. Stacks are used for managing data in a sequential manner, where the most recently added item is the first to be processed or removed. They are essential for tasks like function call management, expression evaluation, and undo functionality in software applications.</div>
+      <a class="try-link" id="insertion-sort-button" href="https://predator3813.github.io/Real-Time-Stack-Application/">Try Stack</a>
+    </div>
+    <div class="video-container">
+      <video src="assets/Stack Data Structure Animation.mp4" controls></video>
+    </div>
+  </section> 
+
+  <section id="pathfinder" class="hidden">
+    <div class="sort-info">
+      <div class="sort-name">Array</div>
+      <div class="sort-definition">
+        An array is a fundamental data structure that represents a collection of elements, each identified by an index or a key. It provides a contiguous memory allocation for its elements, allowing for efficient random access and manipulation of data. Arrays are versatile and widely used for storing and organizing data of the same data type, making them suitable for tasks such as data storage, sorting, and searching, and are the foundation for more complex data structures and algorithms.
+      </div>
+      <a class="try-link" id="pathfinder-button" href="https://predator3813.github.io/Real-Time-Array-Application/">Try Array</a>
+    </div>
+    <div class="image-container">
+      <img src="assets/1.gif" alt="Pathfinder Image">
+    </div>
+  </section> 
+
+  <section id="pathfinder" class="hidden">
+    <div class="sort-info">
+      <div class="sort-name">Pathfinder</div>
+      <div class="sort-definition">
+        Pathfinder is a tool or concept used to find the best path between two points, considering obstacles and constraints. It involves algorithms and techniques for efficient navigation or routing.
+      </div>
+      <a class="try-link" id="pathfinder-button" href="./src/graph/index.html">Try Pathfinder</a>
+    </div>
+    <div class="image-container">
+      <img src="assets/pathfinder.png" alt="Pathfinder Image">
+    </div>
+  </section> 
+  
+  <a id="back-to-top" href="#header">
+    <img src="assets/up-arrow.png" alt="Up Arrow">
+    <span class="tooltip">Back to top</span>
+  </a>  
+  
+  <section id="information">
+    <div class="information-content">
+        <div class="information-logo">Algorithms Visualizer</div>
+        <div class="contact-info">
+            <div class="team-members">
+                <div class="team-member">
+                    <span>Vinayak Soni</span>
+                    <a href="https://github.com/vinayaksoni1729" target="_blank">
+                        <img src="assets/github.png" alt="GitHub" />
+                    </a>
+                </div>
+                <div class="team-member">
+                    <span>Kanishk Reddy</span>
+                    <a href="https://github.com/predator3813" target="_blank">
+                        <img src="assets/github.png" alt="GitHub" />
+                    </a>
+                </div>
+                <div class="team-member">
+                    <span>Agradeep Sarkar</span>
+                    <a href="https://github.com/agradeep1123" target="_blank">
+                        <img src="assets/github.png" alt="GitHub" />
+                    </a>
+                </div>
+                <div class="team-member">
+                  <span>Priyansh Nandwana</span>
+                  <a href="https://github.com/NguyenManhVietKhoi" target="_blank">
+                      <img src="assets/github.png" alt="GitHub" />
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <span class="footer2">
+      <p>Copyright &#169; 2023 Algorithms Visualizer. All Rights Reserved.</p>
+    </span>
+</section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
